@@ -48,7 +48,7 @@ def encriptacaoTexto(texto: str) -> str:
 
 if __name__ == '__main__':
 
-    texto = input()
+    texto = input("Digite o texto a ser encriptado: ")
     
-    rslt = encriptacaoTexto('')
+    rslt = encriptacaoTexto(texto)
     print(f"O texto encriptado é: \n{rslt}")
