@@ -1,10 +1,10 @@
 # DesafioCapgemini
 Aqui estão relatadas as instruções de uso e demais detalhes acerca da implementaçao das questão do Desafio de Programação 02, uma das etapas do processo seletivo da Academia Técnica Capgemini 2022.
 
-Além do Python 3, não é necessário instalar nenhum pacote extra.
+Além do Python 3, não é necessário instalar nenhum pacote extra.\
 Cada uma das questões resolvidas estão num arquivo diferente.
 
-Cada teste unitário está num arquivo separado, respectivo à função que ele avalia.
+Cada teste unitário está num arquivo separado, respectivo ao módulo que ele avalia.\
 Por convenção, o nome dos arquvos de teste são:
 >"teste_<nome_do_modulo_testado>.py"
 
@@ -29,10 +29,10 @@ Já para executar os testes unitários, há duas formas:
 >Executar todos os testes de uma vez (o Python busca automaticamente por eles):
 >>python3 -m unittest
 
-Os comandos acima funcionam somente se o usuário tiver navegado até a pasta onde os arquivos estão.
+Os comandos acima funcionam somente se o usuário tiver navegado até a pasta onde os arquivos estão.\
 Contudo, para que isso não seja necessário, pode ser passado o caminho completo do arquivo ao invés de apenas seu nome base.
 
-O comando 'python3' funciona para sistemas operacionaos Unix.
+O comando 'python3' funciona para sistemas operacionaos Unix.\
 O comando equivalente no Windows é 'py'
 
  
