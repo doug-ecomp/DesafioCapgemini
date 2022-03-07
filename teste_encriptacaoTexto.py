@@ -3,7 +3,7 @@ from encriptacaoTexto import encriptacaoTexto
 
 class TestencriptacaoTexto(unittest.TestCase):
     def test_encriptacaoTexto(self):
-        #Testa se encontrou corretamente a encriptacaoTexto
+        #Testa se encriptou corretamente o texto
         self.assertEqual(encriptacaoTexto('ola mundo'), 'omd luo an')
         self.assertEqual(encriptacaoTexto('tenha um bom dia'), 'taoa eum nmd hbi')
         self.assertEqual(encriptacaoTexto('eu sou douglas'), 'eool uuua sdgs')
